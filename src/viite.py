@@ -1,8 +1,8 @@
 class Viite:
 
-    def __init__(self, type, name, author, title, year):
+    def __init__(self, type, key, author, title, year):
         self.type = type
-        self.name = name
+        self.key = key
         self.author = author
         self.title = title
         self.year = year

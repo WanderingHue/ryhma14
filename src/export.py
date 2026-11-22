@@ -7,7 +7,7 @@ class Export:
     @staticmethod
     def writeBib(reference):
 
-        content = f"""@{reference.type}{{{reference.name},
+        content = f"""@{reference.type}{{{reference.key},
     author = {{{reference.author}}},
     title = {{{reference.title}}},
     year = {{{reference.year}}}
@@ -23,7 +23,7 @@ class Export:
         with open(filepath, "w", encoding="utf-8") as file:
             file.write(content)
 
-viiteolio = viite.Viite("article", "name", "Author", "Title", 2026)
+viiteolio = viite.Viite("article", "key", "Author", "Title", 2026)
 
 # tiedoston testiajo, poistoon myöhemmin
 Export.writeBib(viiteolio)         
