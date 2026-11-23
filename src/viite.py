@@ -6,3 +6,6 @@ class Viite:
         self.author = author
         self.title = title
         self.year = year
+
+    def print(self):
+        print(f"viite: {self.type}, {self.key}, {self.author}, {self.title}, {self.year}")
