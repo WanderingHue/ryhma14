@@ -18,9 +18,9 @@
 
 Kun ohjelma käynnistyy tulee ruudulle tervetuloviesti ja ohjelma kysyy minkä toiminnon haluat suorittaa:
 
-"add" lisää viitteen (toimii, listaa annettuihin kenttiin tiedot ja ohjelma tulostaa lisätyn liitteen)
-"remove" poistaa viitteen (ei vielä toteutettu)
-"edit" muokkaa viitettä (ei vielä toteutettu)
-"list" listaa viitteet (ei vielä toteutettu)
-"export" vie viitteet tiedostoon (ei vielä toteutettu)
+ - "add" lisää viitteen (toimii, listaa annettuihin kenttiin tiedot ja ohjelma tulostaa lisätyn liitteen)
+ - "remove" poistaa viitteen (ei vielä toteutettu)
+ - "edit" muokkaa viitettä (ei vielä toteutettu)
+ - "list" listaa viitteet (ei vielä toteutettu)
+ - "export" vie viitteet tiedostoon (ei vielä toteutettu)
 
