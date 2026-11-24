@@ -7,3 +7,5 @@ Ohjelma ei kaadu asiakkaan edessä,
 Ohjelmaa on ainakin käyttäjätestattu, sekä on kirjoitettu yksikkötestejä, yksikkötestit automatisoitu,
 Ohjelman osat integroitu
 
+[![CI](https://github.com/WanderingHue/ryhma14/actions/workflows/main.yml/badge.svg)](https://github.com/WanderingHue/ryhma14/actions/workflows/main.yml)
+
