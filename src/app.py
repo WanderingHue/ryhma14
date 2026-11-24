@@ -6,8 +6,8 @@ from export import Export
 def main():
     actions = ["add", "remove", "edit", "list", "export", "exit"]
     ## Kovakoodattu esimerkkilista sprint reviewiä varten.
-    examples = [Viite("Kirja", "avain", "Kissa", "Kissan arki", 2014),
-                Viite("Artikkeli", "avain", "Matti Mallikas", "Miten saada opintopisteitä?", 2026)]
+    examples = [Viite("Kirja", "avain", "Kissa", "Kissan arki", 2014, publisher="Kissa Julkaisija"),
+                Viite("Artikkeli", "avain", "Matti Mallikas", "Miten saada opintopisteitä?", 2026, journal="Lehti", volume=2, pages="11-32")]
     viite = None
 
     # Kyselyolio
