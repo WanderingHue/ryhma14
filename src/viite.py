@@ -8,4 +8,4 @@ class Viite:
         self.year = year
 
     def print(self):
-        print(f"viite: {self.type}, {self.key}, {self.author}, {self.title}, {self.year}")
+        print(f"{self.type}, {self.key}, {self.author}, {self.title}, {self.year}")
