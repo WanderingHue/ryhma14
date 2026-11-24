@@ -37,6 +37,6 @@ def main():
             query.action_list(examples)
 
         if action == "export":
-            export.writeBib(examples)
+            export.writeBib(Viite("Kirja", "avain", "Kissa", "Kissan arki", 2014))
 
 main()
