@@ -8,7 +8,6 @@ Product Backlog: https://docs.google.com/spreadsheets/d/1U37ivyz8P0ueKd8qt5LT_Hx
  - Ohjelman osat integroitu
 
 
-[CI (GitHub Actions)](https://github.com/WanderingHue/ryhma14/actions)
 
 [![CI](https://github.com/WanderingHue/ryhma14/actions/workflows/main.yml/badge.svg)](https://github.com/WanderingHue/ryhma14/actions/workflows/main.yml)
 
