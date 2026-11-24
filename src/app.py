@@ -25,7 +25,8 @@ def main():
         if action == "add":
             data = query.action_add()
             viite = Viite(data[0], data[1], data[2], data[3], data[4])
-            examples.append(viite)
+            #examples.append(viite)
+            export.writeBib(viite)
 
         if action == "remove":
             to_remove = query.action_remove(examples)
@@ -35,8 +36,9 @@ def main():
 
         if action == "list":
             query.action_list(examples)
-
+        
+        '''
         if action == "export":
             export.writeBib(Viite("Kirja", "avain", "Kissa", "Kissan arki", 2014))
-
+        '''
 main()
