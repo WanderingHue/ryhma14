@@ -8,7 +8,7 @@ class Query:
         print("Welcome user, \n")
 
     def ask_action(self, actions):
-        query = f"What would you like to do?\n {self.actions}\n"
+        query = f"What would you like to do? {self.actions}\n> "
         action = input(query)
 
         if action not in self.actions:
