@@ -12,6 +12,7 @@ class Export:
     title = {{{reference.title}}},
     year = {{{reference.year}}}
 }}
+
 """
 
         # tässä varmistetaan, että viitetiedosto menee juurihakemistoon,
@@ -20,7 +21,7 @@ class Export:
 
         filepath = root / "viitetiedosto.bib"
 
-        with open(filepath, "w", encoding="utf-8") as file:
+        with open(filepath, "a", encoding="utf-8") as file:
             file.write(content)
 
 viiteolio = viite.Viite("article", "key", "Author", "Title", 2026)
