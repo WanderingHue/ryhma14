@@ -4,8 +4,10 @@ class Query:
     def __init__(self, actions):
         self.actions = actions
 
+
     def welcome(self):
         print("Welcome user, \n")
+
 
     def ask_action(self, actions):
         query = f"What would you like to do? {self.actions}\n> "
