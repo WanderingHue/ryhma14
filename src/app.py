@@ -37,6 +37,6 @@ def main():
             query.action_list(examples)
 
         if action == "export":
-            export.writeBib(["Kirja", "avain", "Matti Mallikas", "Miten saada opintopisteitä?", "2014"])
+            export.writeBib(examples)
 
 main()
