@@ -23,8 +23,9 @@ class Export:
 
         with open(filepath, "a", encoding="utf-8") as file:
             file.write(content)
-
+'''
 viiteolio = viite.Viite("article", "key", "Author", "Title", 2026)
 
 # tiedoston testiajo, poistoon myöhemmin
 Export.writeBib(viiteolio)         
+'''
