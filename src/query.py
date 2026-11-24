@@ -37,7 +37,7 @@ class Query:
         data.append(input("Key: "))
         data.append(input("Author: "))
         data.append(input("Title: "))
-        data.append(input("Publication Year: ")
+        data.append(input("Publication Year: "))
         return data
 
 
