@@ -1,5 +1,7 @@
 # ryhma14
 
+Ohjelma viitteiden hallintaan
+
 [Backlogit](https://docs.google.com/spreadsheets/d/1U37ivyz8P0ueKd8qt5LT_HxdaDD0JnOFDHfKsftNthg/edit?usp=sharing)
 
 ## Definition of done
@@ -23,4 +25,5 @@ Kun ohjelma käynnistyy tulee ruudulle tervetuloviesti ja ohjelma kysyy minkä t
  - "edit" muokkaa viitettä (ei vielä toteutettu)
  - "list" listaa viitteet (ei vielä toteutettu)
  - "export" vie viitteet tiedostoon (ei vielä toteutettu)
+ - "exit" poistuu ohjelmasta
 
