@@ -23,4 +23,5 @@ Kun ohjelma käynnistyy tulee ruudulle tervetuloviesti ja ohjelma kysyy minkä t
  - "edit" muokkaa viitettä (ei vielä toteutettu)
  - "list" listaa viitteet (ei vielä toteutettu)
  - "export" vie viitteet tiedostoon (ei vielä toteutettu)
+ - "exit" poistuu ohjelmasta
 
