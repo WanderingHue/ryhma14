@@ -21,5 +21,8 @@ class Viite:
     def print(self):
         if self.type == "Artikkeli":
             print(f"{self.type}, {self.key}, {self.author}, {self.title}, {self.year}, {self.journal}, {self.volume}, {self.pages}")
-        else:
-            print(f"{self.type}, {self.key}, {self.author}, {self.title}, {self.year}, {self.publisher}")
+        else: 
+            if self.type == "Kirja":
+                print(f"{self.type}, {self.key}, {self.author}, {self.title}, {self.year}, {self.publisher}")            
+            else: # jos tyyppi on "inproceedings".
+                print(f"{self.type}, {self.key}, {self.author}, {self.title}, {self.year}, {self.booktitle}")

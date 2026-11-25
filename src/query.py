@@ -34,10 +34,28 @@ class Query:
         ## Ei kapitalisoida. Voidaan tehdä viitetietojen käsittelystä
         ## case-insensitive.
         data.append(input("Reference Type: "))
-        data.append(input("Key: "))
-        data.append(input("Author: "))
-        data.append(input("Title: "))
-        data.append(input("Publication Year: "))
+        if data[0] == "inproceedings":
+            data.append(input("Key: "))
+            data.append(input("Author: "))
+            data.append(input("Title: "))
+            data.append(input("Publication Year: "))
+            data.append(input("Booktitle: "))        
+        else:
+            if data[0] == "book":
+                data.append(input("Key: "))
+                data.append(input("Author: "))
+                data.append(input("Title: "))
+                data.append(input("Publication Year: "))
+                data.append(input("Publisher: "))
+            else:
+                data.append(input("Key: "))
+                data.append(input("Author: "))
+                data.append(input("Title: "))
+                data.append(input("Publication Year: "))
+                data.append(input("Journal: "))
+                data.append(input("Volume: "))
+                data.append(input("Pages: "))
+
         return data
 
 

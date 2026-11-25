@@ -24,7 +24,16 @@ def main():
 
         if action == "add":
             data = query.action_add()
-            viite = Viite(data[0], data[1], data[2], data[3], data[4])
+            #viite = Viite(data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7], data[8], data[9])
+            
+            if data[0] == "inproceedings":
+                viite = Viite(data[0], data[1], data[2], data[3], data[4], booktitle=data[5])
+            else:
+                if data[0] == "book":
+                    viite = Viite(data[0], data[1], data[2], data[3], data[4], publisher=data[5])
+                else:
+                    viite = Viite(data[0], data[1], data[2], data[3], data[4], journal=data[5], volume=data[6], pages=data[7])
+            
             #examples.append(viite)
             export.writeBib(viite)
 

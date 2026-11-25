@@ -6,11 +6,16 @@ class Export:
 
     @staticmethod
     def writeBib(reference):
-
+       
         content = f"""@{reference.type}{{{reference.key},
     author = {{{reference.author}}},
     title = {{{reference.title}}},
-    year = {{{reference.year}}}
+    year = {{{reference.year}}},
+    booktitle = {{{reference.booktitle}}},
+    journal = {{{reference.journal}}},
+    volume = {{{reference.volume}}},
+    pages = {{{reference.pages}}},
+    publisher = {{{reference.publisher}}}
 }}
 
 """
